@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="User APIs"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.450">
+  <properties />
+  
+  
+            <testcase name="getRequestByStatusTest" time="1.638" classname="com.phase3.restassured.assessment005.GetRequestUsingQueryparam" />
+                <testcase name="getRequestByPendingTest" time="1.393" classname="com.phase3.restassured.assessment005.GetRequestUsingQueryparam" />
+                <testcase name="getRequestBySoldTest" time="1.419" classname="com.phase3.restassured.assessment005.GetRequestUsingQueryparam" />
+      
+</testsuite>

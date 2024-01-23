@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="User APIs"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.414">
+  <properties />
+  
+  
+            <testcase name="getLoginRequestTest" time="1.414" classname="com.phase3.restassured.assessment004.UserLoginTest" />
+      
+</testsuite>

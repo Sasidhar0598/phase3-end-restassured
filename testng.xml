@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="RestAssured Test phase3">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	<test name="pet APIs">
+		<classes>
+			<class name="com.phase3.restassured.assessment001.PostPetRequest"></class>
+			<class name="com.phase3.restassured.assessment001.GetRequest"></class>
+
+			<class name="com.phase3.restassured.assessment002.PutRequest"></class>
+			<class
+				name="com.phase3.restassured.assessment001.DeleteRequest"></class>
+		</classes>
+	</test>
+
+	<test name="User APIs">
+		<classes>
+			<class
+				name="com.phase3.restassured.assessment004.UserLoginTest"></class>
+			<class
+				name="com.phase3.restassured.assessment005.GetRequestUsingQueryparam"></class>
+		</classes>
+	</test>
+
+
+</suite>

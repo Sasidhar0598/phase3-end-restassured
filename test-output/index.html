@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-RestAssured_Test_phase3" class="navigator-link">
+              <span class="suite-name border-passed">RestAssured Test phase3</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-RestAssured_Test_phase3" class="navigator-link ">
+                    <span>C:\Users\Karthik\eclipse-workspace\RestAssured-Phase3\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-RestAssured_Test_phase3" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-RestAssured_Test_phase3" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-RestAssured_Test_phase3" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-RestAssured_Test_phase3" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-RestAssured_Test_phase3" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-RestAssured_Test_phase3" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-RestAssured_Test_phase3" class="hide-methods passed suite-RestAssured_Test_phase3"> (hide)</a> <!-- hide-methods passed suite-RestAssured_Test_phase3 -->
+                      <a href="#" panel-name="suite-RestAssured_Test_phase3" class="show-methods passed suite-RestAssured_Test_phase3"> (show)</a> <!-- show-methods passed suite-RestAssured_Test_phase3 -->
+                    </span>
+                    <div class="method-list-content passed suite-RestAssured_Test_phase3">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestAssured_Test_phase3" title="com.phase3.restassured.assessment001.DeleteRequest" class="method navigator-link" hash-for-method="deleteRequestTest">deleteRequestTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestAssured_Test_phase3" title="com.phase3.restassured.assessment004.UserLoginTest" class="method navigator-link" hash-for-method="getLoginRequestTest">getLoginRequestTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestAssured_Test_phase3" title="com.phase3.restassured.assessment005.GetRequestUsingQueryparam" class="method navigator-link" hash-for-method="getRequestByPendingTest">getRequestByPendingTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestAssured_Test_phase3" title="com.phase3.restassured.assessment005.GetRequestUsingQueryparam" class="method navigator-link" hash-for-method="getRequestBySoldTest">getRequestBySoldTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestAssured_Test_phase3" title="com.phase3.restassured.assessment005.GetRequestUsingQueryparam" class="method navigator-link" hash-for-method="getRequestByStatusTest">getRequestByStatusTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestAssured_Test_phase3" title="com.phase3.restassured.assessment001.GetRequest" class="method navigator-link" hash-for-method="getRequestTest">getRequestTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestAssured_Test_phase3" title="com.phase3.restassured.assessment001.PostPetRequest" class="method navigator-link" hash-for-method="testPost">testPost</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RestAssured_Test_phase3" title="com.phase3.restassured.assessment002.PutRequest" class="method navigator-link" hash-for-method="testPost">testPost</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-RestAssured_Test_phase3 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-RestAssured_Test_phase3" class="panel RestAssured_Test_phase3">
+          <div class="suite-RestAssured_Test_phase3-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.phase3.restassured.assessment001.GetRequest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getRequestTest">
+                  </a> <!-- getRequestTest -->
+                  <span class="method-name">getRequestTest</span>
+                  <em>
+(Test for executing GET request using rest assured)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RestAssured_Test_phase3-class-passed -->
+          <div class="suite-RestAssured_Test_phase3-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.phase3.restassured.assessment005.GetRequestUsingQueryparam</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getRequestByPendingTest">
+                  </a> <!-- getRequestByPendingTest -->
+                  <span class="method-name">getRequestByPendingTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getRequestBySoldTest">
+                  </a> <!-- getRequestBySoldTest -->
+                  <span class="method-name">getRequestBySoldTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getRequestByStatusTest">
+                  </a> <!-- getRequestByStatusTest -->
+                  <span class="method-name">getRequestByStatusTest</span>
+                  <em>
+(Test for executing GET request using rest assured)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RestAssured_Test_phase3-class-passed -->
+          <div class="suite-RestAssured_Test_phase3-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.phase3.restassured.assessment001.PostPetRequest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPost">
+                  </a> <!-- testPost -->
+                  <span class="method-name">testPost</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RestAssured_Test_phase3-class-passed -->
+          <div class="suite-RestAssured_Test_phase3-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.phase3.restassured.assessment002.PutRequest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPost">
+                  </a> <!-- testPost -->
+                  <span class="method-name">testPost</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RestAssured_Test_phase3-class-passed -->
+          <div class="suite-RestAssured_Test_phase3-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.phase3.restassured.assessment001.DeleteRequest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteRequestTest">
+                  </a> <!-- deleteRequestTest -->
+                  <span class="method-name">deleteRequestTest</span>
+                  <em>
+(Test for executing POST request using rest assured)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RestAssured_Test_phase3-class-passed -->
+          <div class="suite-RestAssured_Test_phase3-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.phase3.restassured.assessment004.UserLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getLoginRequestTest">
+                  </a> <!-- getLoginRequestTest -->
+                  <span class="method-name">getLoginRequestTest</span>
+                  <em>
+(Test for executing GET request using rest assured)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RestAssured_Test_phase3-class-passed -->
+        </div> <!-- panel RestAssured_Test_phase3 -->
+        <div panel-name="test-xml-RestAssured_Test_phase3" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Karthik\eclipse-workspace\RestAssured-Phase3\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;RestAssured Test phase3&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;pet APIs&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.phase3.restassured.assessment001.PostPetRequest&quot;/&gt;
+      &lt;class name=&quot;com.phase3.restassured.assessment001.GetRequest&quot;/&gt;
+      &lt;class name=&quot;com.phase3.restassured.assessment002.PutRequest&quot;/&gt;
+      &lt;class name=&quot;com.phase3.restassured.assessment001.DeleteRequest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- pet APIs --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;User APIs&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.phase3.restassured.assessment004.UserLoginTest&quot;/&gt;
+      &lt;class name=&quot;com.phase3.restassured.assessment005.GetRequestUsingQueryparam&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- User APIs --&gt;
+&lt;/suite&gt; &lt;!-- RestAssured Test phase3 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-RestAssured_Test_phase3" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for RestAssured Test phase3</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">pet APIs (4 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">User APIs (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-RestAssured_Test_phase3" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for RestAssured Test phase3</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-RestAssured_Test_phase3" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for RestAssured Test phase3</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_RestAssured_Test_phase3');
+function tableData_RestAssured_Test_phase3() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testPost')
+data.setCell(0, 2, 'com.phase3.restassured.assessment001.PostPetRequest')
+data.setCell(0, 3, 5080);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'getRequestTest')
+data.setCell(1, 2, 'com.phase3.restassured.assessment001.GetRequest')
+data.setCell(1, 3, 2062);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'getRequestByStatusTest')
+data.setCell(2, 2, 'com.phase3.restassured.assessment005.GetRequestUsingQueryparam')
+data.setCell(2, 3, 1638);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'deleteRequestTest')
+data.setCell(3, 2, 'com.phase3.restassured.assessment001.DeleteRequest')
+data.setCell(3, 3, 1461);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testPost')
+data.setCell(4, 2, 'com.phase3.restassured.assessment002.PutRequest')
+data.setCell(4, 3, 1439);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'getRequestBySoldTest')
+data.setCell(5, 2, 'com.phase3.restassured.assessment005.GetRequestUsingQueryparam')
+data.setCell(5, 3, 1419);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'getLoginRequestTest')
+data.setCell(6, 2, 'com.phase3.restassured.assessment004.UserLoginTest')
+data.setCell(6, 3, 1414);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'getRequestByPendingTest')
+data.setCell(7, 2, 'com.phase3.restassured.assessment005.GetRequestUsingQueryparam')
+data.setCell(7, 3, 1393);
+window.suiteTableData['RestAssured_Test_phase3']= { tableData: data, tableDiv: 'times-div-RestAssured_Test_phase3'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <div id="times-div-RestAssured_Test_phase3">
+              </div> <!-- times-div-RestAssured_Test_phase3 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-RestAssured_Test_phase3" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for RestAssured Test phase3</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-RestAssured_Test_phase3" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-RestAssured_Test_phase3" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.phase3.restassured.assessment001.PostPetRequest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testPost</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.phase3.restassured.assessment001.GetRequest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getRequestTest</span>
+                <span class="method-start">5086 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.phase3.restassured.assessment002.PutRequest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testPost</span>
+                <span class="method-start">7155 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.phase3.restassured.assessment001.DeleteRequest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">deleteRequestTest</span>
+                <span class="method-start">8597 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.phase3.restassured.assessment004.UserLoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getLoginRequestTest</span>
+                <span class="method-start">10116 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.phase3.restassured.assessment005.GetRequestUsingQueryparam</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getRequestByPendingTest</span>
+                <span class="method-start">11534 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getRequestBySoldTest</span>
+                <span class="method-start">12929 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getRequestByStatusTest</span>
+                <span class="method-start">14352 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
